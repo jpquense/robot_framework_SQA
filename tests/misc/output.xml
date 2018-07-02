@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.2 (Python 3.6.5 on darwin)" generated="20180702 09:48:17.648">
+<suite id="s1" name="CustomLibraryDemo module" source="/Users/jpquense/courses/udemy/RobotCourse/DemoStoreSuperSQA/tests/misc/CustomLibraryDemo_module.robot">
+<test id="s1-t1" name="First test case with custom library">
+<kw name="First Method In Custom" library="demostore.miscLibraries.FirstPythonCustomLibraryModule">
+<doc>:return:</doc>
+<status status="PASS" starttime="20180702 09:48:17.683" endtime="20180702 09:48:17.683"></status>
+</kw>
+<kw name="Second Method In Custom" library="demostore.miscLibraries.FirstPythonCustomLibraryModule">
+<doc>:return:</doc>
+<status status="PASS" starttime="20180702 09:48:17.683" endtime="20180702 09:48:17.683"></status>
+</kw>
+<status status="PASS" starttime="20180702 09:48:17.682" endtime="20180702 09:48:17.683" critical="yes"></status>
+</test>
+<test id="s1-t2" name="first test case with custom library and class">
+<kw name="First Keyword In Class" library="demostore.miscLibraries.FirstPythonCustomLibraryClass">
+<status status="PASS" starttime="20180702 09:48:17.684" endtime="20180702 09:48:17.684"></status>
+</kw>
+<kw name="Second Keyword In Class" library="demostore.miscLibraries.FirstPythonCustomLibraryClass">
+<status status="PASS" starttime="20180702 09:48:17.684" endtime="20180702 09:48:17.684"></status>
+</kw>
+<status status="PASS" starttime="20180702 09:48:17.684" endtime="20180702 09:48:17.685" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20180702 09:48:17.655" endtime="20180702 09:48:17.685"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" id="s1" name="CustomLibraryDemo module">CustomLibraryDemo module</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
